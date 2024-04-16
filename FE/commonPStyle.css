@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: "Bookman Old Style", Arial, sans-serif;
+    background: linear-gradient(to right, #ECEFF1 50%, #fff 50%); 
+  }
+  
+  .header {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .navigation {
+    padding: 10px 0;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    color: #333; 
+    padding: 10px 20px;
+    font-size: 14px; 
+  }
+  
+  .navigation a:hover {
+    background-color: #CFD8DC; 
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  .popup p {
+    font-size: 15px;
+  }
+  
+  .popup:target {
+    display: block;
+  }
+  
+  .contact-details {
+    background: #9fb1b7;
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    padding: 5px;
+    font-size: 15px;
+  }
+  .about-me-box {
+    width: 600px;
+    height: 600px; 
+    background-color: #f9f9f9; 
+    border: 2px solid #78909C; 
+    box-shadow: 0 0 8px 8px rgba(0.1, 0.1, 0.1, 0.1);
+    padding: 50px;
+    margin: 0 auto;
+    text-align: center; 
+
+  }
+  
+  .about-me-box img {
+    width: 250px;
+    height: 250px; 
+    border: 2px solid #78909C; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  }
