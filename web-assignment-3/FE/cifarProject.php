@@ -5,7 +5,7 @@
     <script src="https://kit.fontawesome.com/90ccdd32d7.js" crossorigin="anonymous"></script>
 
     <title>CIFAR-10</title>
-    <link rel="stylesheet" href="commonPStyle.css">
+    <link rel="stylesheet" href="css/commonPStyle.css">
     <style>
         .header {
             display: flex;
@@ -29,8 +29,8 @@
             align-items: center;
             text-decoration: none;
             color: #333; 
-            padding: 10px 20px;
-            font-size: 15px; 
+            padding: 10px 10px;
+            font-size: 14px; 
              
         }
         .end a:hover{
@@ -62,14 +62,16 @@
             ?>
             <a href="login.php">Logout</a>
         </div>
+
+  
     </div>
     <div class="content">
         <div class="about-me-box">
-            <h1>Police Station Database</h1>
-            <img src="pictures/police.jpg.png">
-            <img src="pictures/sql.jpg">
-            <img src="pictures/policeLOGO.jpg">
-            <img src="pictures/ERmodel.jpg">
+            <h1>CIFAR-10</h1>
+            <img src="../pictures/cifar10.jpg">
+            <img src="../pictures/CNNcode.jpg">
+            <img src="../pictures/code.jpg">
+            <img src="../pictures/CNNs.jpg">
             
         </div>
     </div>

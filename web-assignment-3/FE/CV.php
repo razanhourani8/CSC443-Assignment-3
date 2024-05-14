@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link rel="stylesheet" href="cvstyle.css">
+    <link rel="stylesheet" href="css/cvstyle.css">
     <style>
         .header {
             display: flex;
@@ -62,7 +62,7 @@
     </div>
 <div id="page">
     <div class="photo-and-name">
-        <img src="pictures/razanjpg.jpg" class="photo" alt="Profile Picture">
+        <img src="../pictures/razanjpg.jpg" class="photo" alt="Profile Picture">
         <div class="contact-info-box">
             <h1 class="name">Razan Hourani</h1>
             <br>

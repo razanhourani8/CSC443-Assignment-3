@@ -3,13 +3,13 @@
 <html lang="en">
 <head>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link rel="stylesheet" href="signUPstyle.css">
+    <link rel="stylesheet" href="css/signUPstyle.css">
     <title>User Registration</title>
 </head>
 <body>
     <div class="logcontainer">
         <div class="form-container">
-            <form action="loginwork.php" method="post">
+            <form action="../BE/loginwork.php" method="post">
                 <label for="userName">Username</label>
                 <input type="text" id="userName" name="userName" required>
 

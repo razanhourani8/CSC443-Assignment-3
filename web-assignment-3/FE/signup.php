@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link rel="stylesheet" href="SignUPstyle.css">
+    <link rel="stylesheet" href="css/SignUPstyle.css">
     <title>User Registration</title>
 </head>
 <body>
@@ -14,7 +14,7 @@
 
             <h2>Create Your Account</h2>
             <p>To begin, please fill out the form below to create your account:</p>
-            <form action="register.php" method="post">
+            <form action="../BE/register.php" method="post">
                 <label for="userName">Username:</label>
                 <input type="text" id="userName" name="userName" required>
                 <label for="firstName">First Name:</label>

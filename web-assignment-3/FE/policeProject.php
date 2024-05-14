@@ -5,7 +5,7 @@
     <script src="https://kit.fontawesome.com/90ccdd32d7.js" crossorigin="anonymous"></script>
 
     <title>CIFAR-10</title>
-    <link rel="stylesheet" href="commonPStyle.css">
+    <link rel="stylesheet" href="css/commonPStyle.css">
     <style>
         .header {
             display: flex;
@@ -65,11 +65,11 @@
     </div>
     <div class="content">
         <div class="about-me-box">
-            <h1>RISC Processor</h1>
-            <img src="pictures/risc.jpg">
-            <img src="pictures/coProject.jpg">
-            <img src="pictures/coTable.jpg">
-            <img src="pictures/legv8.jpg">
+            <h1>Police Station Database</h1>
+            <img src="../pictures/police.jpg.png">
+            <img src="../pictures/sql.jpg">
+            <img src="../pictures/policeLOGO.jpg">
+            <img src="../pictures/ERmodel.jpg">
             
         </div>
     </div>

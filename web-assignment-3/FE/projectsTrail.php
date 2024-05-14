@@ -5,7 +5,7 @@
     <script src="https://kit.fontawesome.com/90ccdd32d7.js" crossorigin="anonymous"></script>
 
     <title>Projects</title>
-    <link rel="stylesheet" href="projectSTYLE.css">
+    <link rel="stylesheet" href="css/projectSTYLE.css">
     <style>
         .header {
             display: flex;
@@ -81,7 +81,7 @@
         <div id="box2" class="container">
             <h5>RISC Processor</h5>
             <a href="riscProject.php">
-                <img src="pictures/risc.jpg"></a>
+                <img src="../pictures/risc.jpg"></a>
             <div class="text">
                 <p>
                     Designing a RISC Processor utilizing the LEGv8 Architecture, this project was driven by the goal of
@@ -94,7 +94,7 @@
         <div id="box3" class="container2">
             <h4>Police Station Database</h4>
             <a href="policeProject.php">
-                <img src="pictures/police.jpg.png"></a>
+                <img src="../pictures/police.jpg.png"></a>
 
             <div class="text2">
                 <p>

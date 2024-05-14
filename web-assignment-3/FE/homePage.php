@@ -14,7 +14,7 @@ if (!isset($_SESSION['username'])) {
 <head>
     <script src="https://kit.fontawesome.com/90ccdd32d7.js" crossorigin="anonymous"></script>
     <title>About Me</title>
-    <link rel="stylesheet" href="homeStyle.css">
+    <link rel="stylesheet" href="css/homeStyle.css">
     <style>
         .header {
             display: flex;
