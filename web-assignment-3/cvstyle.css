@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: "Bookman Old Style", Arial, sans-serif;
+  background: linear-gradient(to right, #ECEFF1 50%, #fff 50%); 
+}
+
+.header {
+  border-bottom: 1px solid #ccc;
+}
+
+.navigation {
+  padding: 10px 0;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #333; 
+  padding: 10px 20px;
+  font-size: 14px; 
+}
+
+.navigation a:hover {
+  background-color: #CFD8DC; 
+}
+
+.content {
+  padding: 20px;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.popup p {
+  font-size: 15px;
+}
+
+.popup:target {
+  display: block;
+}
+
+.contact-details {
+  background: #9fb1b7;
+  color: white;
+  text-align: center;
+  margin-top: 25px;
+  padding: 5px;
+  font-size: 15px;
+}
+
+#page {
+  min-height: 200px;
+  width: 60%;
+  min-width: 600px;
+  background: #f8f8f8;
+  margin: 50px auto;
+  padding: 30px;
+  color: #4d6469; 
+  border: 2px solid #78909C; 
+  box-shadow: 0 0 8px 8px rgba(0.1, 0.1, 0.1, 0.1);
+}
+
+.photo {
+  width: 20%;
+  min-width: 150px;
+  float: left;
+  margin-right: 20px;
+}
+
+.contact-info-box {
+  width: 70.9%;
+  display: inline-block;
+}
+
+.name {
+  margin-bottom: -30px;
+}
+
+#education h3,
+#work h3,
+#projects h3 {
+  border: 1px solid #9fb1b7;
+  text-transform: uppercase;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 30px 0 10px;
+}
+
+#education table td,
+#work table td,
+#projects table td {
+  padding: 5px;
+  font-size: 14px;
+  color: #4d6469;
+}
